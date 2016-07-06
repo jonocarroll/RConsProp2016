@@ -176,29 +176,36 @@ The source for this document is hosted on GitHub:
 Template adapted from:
 [<https://github.com/svmiller/svm-r-markdown-templates>](https://github.com/svmiller/svm-r-markdown-templates)
 
-![](README_files/figure-markdown_strict/unnamed-chunk-1-1.png) Fig 1.
-Top 50 most downloaded packages from the RStudio CRAN mirror in Januaray
-of 2016. Note that of these 38/50 (75%) have GitHub repositories.
+![](README_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
-![](images/scan.png) Fig 2. Installed packages are scanned, and
-GitHub-sourced packages are processed; commit histories retrieved and
-displayed alongside the installation date (red), in the style of a
-GitHub activity chart. This functionality is currently provided by
-[<http://github.com/jonocarroll/githubtools>](http://github.com/jonocarroll/githubtools)
-(under development).
+Fig 1. Top 50 most downloaded packages from the RStudio CRAN mirror in
+Januaray of 2016. Note that of these 38/50 (75%) have GitHub
+repositories.
 
-![](images/overlay.png) Fig 3. Overlay added to R documentation. When
-not in use, contracts dynamically down to just the pull-tab, and raises
-on hover. This is currently achieved by masking much of
-`devtools::install_github`, injecting HTML directly into the `roxygen`
-comment blocks, and hijacking `Rd2html` from within the call stack. This
+![](images/scan.png)
+
+Fig 2. Installed packages are scanned, and GitHub-sourced packages are
+processed; commit histories retrieved and displayed alongside the
+installation date (red), in the style of a GitHub activity chart. This
 functionality is currently provided by
 [<http://github.com/jonocarroll/githubtools>](http://github.com/jonocarroll/githubtools)
 (under development).
 
-![](images/literate.png) Fig 4. Hyperlinked literate-programming source
-code with a (fictional) link to the GitHub issue where the motivation
-for the structure has been discussed. This functionality is currently
+![](images/overlay.png)
+
+Fig 3. Overlay added to R documentation. When not in use, contracts
+dynamically down to just the pull-tab, and raises on hover. This is
+currently achieved by masking much of `devtools::install_github`,
+injecting HTML directly into the `roxygen` comment blocks, and hijacking
+`Rd2html` from within the call stack. This functionality is currently
 provided by
+[<http://github.com/jonocarroll/githubtools>](http://github.com/jonocarroll/githubtools)
+(under development).
+
+![](images/literate.png)
+
+Fig 4. Hyperlinked literate-programming source code with a (fictional)
+link to the GitHub issue where the motivation for the structure has been
+discussed. This functionality is currently provided by
 [<http://github.com/jonocarroll/literate>](http://github.com/jonocarroll/literate)
 (under development).
